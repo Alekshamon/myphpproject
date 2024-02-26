@@ -17,9 +17,6 @@ $message = $_POST['message'];
 </head>
 <body>
 <div>
-    <h1>Contact information</h1>
-</div>
-<div>
     <h1>Merci <?= $firstName ?> <?= $lastName ?> de nous avoir contacté à propos de “<?= $subject ?>”.</h1>
     <p>Un de nos conseillers vous contactera soit à l’adresse <?= $email ?> ou par téléphone au <?= $phone ?> dans les plus brefs délais pour traiter votre demande :</p>
     <p><?= $message ?></p>
